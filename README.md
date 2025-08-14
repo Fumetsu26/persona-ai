@@ -1,3 +1,53 @@
+# 🎯 Persona-Based AI Chatbot (Gemini Model)
+
+## 📌 Overview
+This project is a **Persona-based AI Chatbot** built using the **Google Gemini model**.  
+The personas are inspired by the publicly available communication style, tone, and expertise of  
+**Hitesh Choudhary** and **Piyush Garg**, gathered from their YouTube videos and live sessions.
+
+The goal is to create an **interactive and engaging experience** where users can chat with AI-driven  
+versions of these personas for learning, mentorship, or casual conversation.
+
+---
+
+## ⚙️ Features
+- **Gemini Model Integration** – Generates natural, context-aware responses.
+- **Multiple Personas** – Switch between AI personas for varied perspectives.
+- **Style & Tone Replication** – Based on public speaking and teaching style.
+- **React Frontend** – Clean, responsive UI for smooth interaction.
+
+---
+
+## 📂 Data Sources
+All persona characteristics (tone, style, knowledge focus) were derived solely from:
+- Public **YouTube videos**
+- Public **YouTube Live sessions**
+
+No private or sensitive information was used.
+
+---
+
+## 🚀 Tech Stack
+- **Frontend:** React, TailwindCSS
+- **Backend / API:** Google Gemini API
+- **State Management:** React Hooks
+- **Deployment:** Vercel / Netlify
+
+---
+
+## 🛡️ Disclaimer
+This chatbot is a **creative and educational project**.  
+It does not represent the real opinions or advice of Hitesh Choudhary or Piyush Garg.  
+All persona traits are inspired by publicly available material.
+
+---
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
