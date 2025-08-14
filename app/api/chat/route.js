@@ -172,7 +172,6 @@ export async function POST(req) {
             },
             {
                 role: "model",
-                // We add a simple confirmation from the model to prime it.
                 parts: [{ text: "Yes, I understand. I am ready to act as this persona." }],
             },
         ];
