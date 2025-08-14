@@ -106,7 +106,6 @@ export default function Home() {
         </button>
       </header>
 
-      {/* Chat area */}
       <main className="flex-1 overflow-y-auto px-2 sm:px-8 py-8 space-y-6">
         {messages.length === 0 && (
           <div className="text-center text-gray-400 italic pt-16">
@@ -152,7 +151,6 @@ export default function Home() {
           );
         })}
 
-        {/* Typing indicator */}
         {isLoading && (
           <div className="flex items-center gap-2 animate-chat">
             <Image src={personas[selectedPersona].avatar} alt="" width={32} height={32} className="rounded-full border-2 border-gray-700" />
@@ -169,7 +167,6 @@ export default function Home() {
         <div ref={messagesEndRef} />
       </main>
 
-      {/* Footer */}
       <footer className="sticky bottom-0 bg-gray-900/90 w-full pt-3 pb-3 px-2 border-t border-gray-800">
         <form onSubmit={handleSubmit} className="flex gap-2 max-w-3xl mx-auto">
           <input
@@ -191,7 +188,7 @@ export default function Home() {
           </button>
         </form>
       </footer>
-      {/* Animations */}
+     
       <style jsx global>{`
         @keyframes chat-fade {
           from { opacity: 0; transform: translateY(24px);}
